@@ -1,0 +1,16 @@
+{
+  "name": "jira-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "setup": "echo \"JIRA_USERNAME=enter_jira_username\nJIRA_API_TOKEN=enter_jira_api_token\nJIRA_BASE_URL=enter_jira_base_url\nJIRA_BOARD_ID=enter_jira_board_id\" > .env"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.1"
+  }
+}
